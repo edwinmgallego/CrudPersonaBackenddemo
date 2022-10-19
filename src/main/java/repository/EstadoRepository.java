@@ -1,4 +1,7 @@
 package repository;
 
-public interface EstadoRepository {
+import model.Estado;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EstadoRepository extends JpaRepository <Estado, Long>{
 }
